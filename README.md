@@ -36,3 +36,18 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## ✅ Implementação realizada
+Todos os "TODO" da classe `Estacionamento` foram implementados:
+
+- **AdicionarVeiculo**: lê a placa digitada, valida (não vazia e não duplicada) e adiciona à lista `veiculos`.
+- **RemoverVeiculo**: lê a placa, verifica se o veículo está estacionado, solicita a quantidade de horas (com validação de entrada), calcula `precoInicial + precoPorHora * horas`, remove o veículo da lista e exibe o valor total.
+- **ListarVeiculos**: percorre a lista com um laço de repetição exibindo todos os veículos estacionados, ou informa que não há veículos.
+
+O projeto foi atualizado para **.NET 8** (com `RollForward` para rodar em versões mais novas do runtime).
+
+### Como executar
+```bash
+cd DesafioFundamentos
+dotnet run
+```
